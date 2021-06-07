@@ -7,6 +7,8 @@ bool val[1005],vis[1005];
 void dfs(int a,int b) {
   vis[b]=1;
   ans[++len]=b;
-  for(int i=1;i<=num[b];i++);
+  for(int i=1;i<=num[b];i++) {
+    
+  }
   return;
 }
